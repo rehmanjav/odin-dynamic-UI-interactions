@@ -1,0 +1,53 @@
+.view {
+    height: 900px;
+    width: 462px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+}
+
+nav p {
+    font-size: 1rem;
+}
+
+main,
+nav {
+    width: 462px;
+    background-color: #121212;
+}
+
+main {
+    height: calc(.82 * 900px);
+    background-color: #3e3e3e;
+}
+
+nav {
+    height: calc(.18 * 900px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn-menu {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border: none;
+    background-color: #121212;
+}
+
+.btn-menu:hover {
+    background-color: #323232;
+}
+
