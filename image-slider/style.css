@@ -35,3 +35,28 @@ img {
     height: 70px;
     width: 50px;
   }
+
+.img-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: black 1px solid;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.img-circle {
+  height: 20px;
+  width: 20px;
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.img-active {
+  background-color: green !important;
+}
